@@ -27,7 +27,7 @@ fi
 npm version patch --no-git-tag-version
 
 # Build
-pnpm run build
+npm run build
 
 # Copy files from out to server
 scp -i $SSH_KEY -r ./out/* $SERVER_PATH
