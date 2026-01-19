@@ -30,6 +30,7 @@ npm version patch --no-git-tag-version
 npm run build
 
 # Copy files from out to server
+shopt -s dotglob
 scp -i $SSH_KEY -r ./out/* $SERVER_PATH
 
 # Remove out folder
