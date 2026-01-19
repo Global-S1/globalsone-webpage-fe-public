@@ -23,7 +23,7 @@ export default function LocaleSwitcher() {
 
     function onSelectChange(nextLocale: string) {
         startTransition(() => {
-            // @ts-expect-error -- known next-intl type quirk
+
             router.replace(pathname, { locale: nextLocale });
         });
     }

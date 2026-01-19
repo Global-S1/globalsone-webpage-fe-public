@@ -1,0 +1,98 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "services": "Servicios",
+        "products": "Productos",
+        "about": "Nosotros",
+        "contact": "Contacto"
+    },
+    "home": {
+        "hero": {
+            "title": "Ingeniería tecnológica que ordena, automatiza y hace escalar tu negocio.",
+            "subtitle": "No solo desarrollamos software; construimos los ecosistemas que sostienen tu operación. Transformamos procesos complejos en plataformas claras, seguras y de alto rendimiento.",
+            "cta": "Agendar Diagnóstico Estratégico"
+        },
+        "empathy": {
+            "title": "¿Tu tecnología es un motor o un freno?",
+            "description": "Muchos implementadores de software prometen soluciones y entregan problemas. En Global S1 sabemos que el tiempo es tu recurso más caro. Permite que automaticemos lo que hoy te quita el sueño para que tú te enfoques en liderar.",
+            "items": {
+                "profitability": "Fuga de Rentabilidad: Procesos manuales que consumen tiempo y dinero innecesariamente.",
+                "chaos": "Caos de Información: Datos dispersos, duplicados y difíciles de usar para el negocio.",
+                "silos": "Silos Tecnológicos: Sistemas que no conversan entre sí, generando baches operativos.",
+                "uncertainty": "Incertidumbre Estratégica: Decisiones tomadas \"a ciegas\" por falta de datos claros y en tiempo real.",
+                "ceiling": "Techo Tecnológico: Un crecimiento acelerado que tu infraestructura actual ya no es capaz de soportar."
+            }
+        },
+        "solutions": {
+            "title": "Tecnología con criterio, no solo con código.",
+            "subtitle": "Nuestro proceso es simple y estratégico:",
+            "steps": {
+                "understand": {
+                    "title": "Entendemos",
+                    "desc": "Analizamos el negocio y los procesos reales antes de escribir una sola línea de código."
+                },
+                "design": {
+                    "title": "Diseñamos",
+                    "desc": "Creamos una solución escalable y segura que resuelva el problema de raíz."
+                },
+                "implement": {
+                    "title": "Implementamos",
+                    "desc": "Ejecutamos con un foco obsesivo en la calidad y el alto rendimiento técnico."
+                },
+                "accompany": {
+                    "title": "Acompañamos",
+                    "desc": "Acompañamos, optimizamos y hacemos crecer tu tecnología junto a tu negocio."
+                }
+            }
+        },
+        "differentials": {
+            "title": "¿Por qué Global S1?",
+            "items": {
+                "experience": {
+                    "title": "Experiencia real en plataformas en producción",
+                    "desc": "No trabajamos solo en entornos de prueba: hemos diseñado y desarrollado plataformas digitales utilizadas por usuarios reales en escenarios de alta exigencia operativa."
+                },
+                "decisions": {
+                    "title": "Decisiones técnicas con impacto en el negocio",
+                    "desc": "Cada elección tecnológica se evalúa por su efecto en costos, operación, seguridad y crecimiento, no por moda o conveniencia inmediata."
+                },
+                "ip": {
+                    "title": "Propiedad intelectual y tecnología propia",
+                    "desc": "Desarrollamos plataformas y soluciones SaaS propias, lo que nos permite construir con visión de largo plazo y criterio de producto."
+                },
+                "responsibility": {
+                    "title": "Responsabilidad tecnológica",
+                    "desc": "Nos involucramos en lo que construimos: cuidamos la estabilidad, la seguridad y la sostenibilidad de las soluciones en el tiempo."
+                }
+            }
+        }
+    },
+    "about": {
+        "mission": "En Global S1 desarrollamos tecnología que potencia a las personas y sostiene el crecimiento de las empresas. Diseñamos soluciones escalables, seguras y sostenibles que resuelven problemas reales y acompañan la evolución de los negocios en el tiempo.",
+        "vision": "Construir un ecosistema donde tecnología, talento humano y propósito operen de forma integrada. Queremos ser un referente en soluciones tecnológicas confiables, con impacto positivo en la operación de las organizaciones y en su relación con el entorno.",
+        "culture": {
+            "title": "Cultura aplicada a Estrategia",
+            "desc": "En Global S1 la cultura se refleja en cómo diseñamos, qué decisiones tomamos y qué no negociamos.",
+            "values": {
+                "trust": "Confianza → Estrategia: Trabajamos con transparencia en alcance, costos y métricas.",
+                "sustainability": "Sostenibilidad → Estrategia: Priorizamos eficiencia técnica y código mantenible.",
+                "excellence": "Excelencia → Estrategia: Aplicamos estándares de calidad y revisión constante.",
+                "collaboration": "Colaboración → Estrategia: Integramos a los clientes desde etapas tempranas."
+            }
+        }
+    },
+    "contact": {
+        "title": "¿Listo para transformar tus retos en ventajas competitivas?",
+        "message": "Soy Patricia Rioja, CEO de Global S1. Hablemos de cómo nuestra tecnología puede potenciar tu visión de negocio.",
+        "form": {
+            "name": "Nombre y Empresa",
+            "email": "Correo electrónico",
+            "phone": "Teléfono",
+            "message": "¿Cuál es el proceso que hoy te hace perder tiempo?",
+            "submit": "Quiero una sesión estratégica"
+        }
+    },
+    "footer": {
+        "copyright": "© {year} Global S1. Todos los derechos reservados."
+    }
+}
