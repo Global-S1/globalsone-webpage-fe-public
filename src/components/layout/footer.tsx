@@ -15,6 +15,11 @@ export function Footer() {
                         </span>
                         <p className="text-sm text-muted-foreground mt-2">
                             © {currentYear} Global S1. All rights reserved.
+                            {process.env.NEXT_PUBLIC_APP_VERSION && (
+                                <span className="ml-2 text-xs opacity-70">
+                                    v{process.env.NEXT_PUBLIC_APP_VERSION}
+                                </span>
+                            )}
                         </p>
                     </div>
                     <div className="flex gap-4">
