@@ -73,6 +73,13 @@ body {
   animation: marquee 25s linear infinite;
 }
 
+
 .pause-on-hover:hover .animate-marquee {
   animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation-play-state: paused !important;
+  }
 }
