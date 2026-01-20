@@ -8,9 +8,10 @@
     },
     "home": {
         "hero": {
-            "title": "Ingeniería tecnológica que ordena, automatiza y hace escalar tu negocio.",
-            "subtitle": "No solo desarrollamos software; construimos los ecosistemas que sostienen tu operación. Transformamos procesos complejos en plataformas claras, seguras y de alto rendimiento.",
-            "cta": "Agendar Diagnóstico Estratégico"
+            "title": "Convertimos operaciones complejas en plataformas inteligentes que escalan tu negocio.",
+            "subtitle": "Automatización, inteligencia artificial y productos digitales propios que ordenan procesos, mejoran decisiones y habilitan crecimiento real.",
+            "cta": "Agendar diagnóstico de mi operación",
+            "capabilities": "Plataformas a medida · BARO · GIA · IA aplicada · Automatización"
         },
         "empathy": {
             "title": "¿Tu tecnología es un motor o un freno?",
