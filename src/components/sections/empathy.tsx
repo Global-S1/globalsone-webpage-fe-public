@@ -40,7 +40,7 @@ export function Empathy() {
                 </motion.p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="flex flex-wrap justify-center gap-6">
                 {problems.map((problem, index) => (
                     <motion.div
                         key={problem.key}
@@ -48,15 +48,16 @@ export function Empathy() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: index * 0.1 }}
+                        className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] max-w-sm flex"
                     >
-                        <Card className="h-full border-none shadow-md hover:shadow-xl transition-all duration-300">
+                        <Card className="flex flex-col h-full w-full border-slate-200 dark:border-slate-800 shadow-md hover:shadow-xl hover:border-brand-red/30 transition-all duration-300 group cursor-default bg-white dark:bg-slate-900">
                             <CardHeader>
-                                <div className="w-12 h-12 rounded-lg bg-brand-red/10 flex items-center justify-center mb-4">
-                                    <problem.icon className="w-6 h-6 text-brand-red" />
+                                <div className="w-14 h-14 rounded-2xl bg-brand-red/5 group-hover:bg-brand-red/10 flex items-center justify-center mb-2 transition-colors duration-300">
+                                    <problem.icon className="w-7 h-7 text-brand-red group-hover:scale-110 transition-transform duration-300" />
                                 </div>
                             </CardHeader>
                             <CardContent>
-                                <p className="text-foreground font-medium leading-relaxed">
+                                <p className="text-brand-charcoal dark:text-slate-100 font-semibold text-lg leading-relaxed group-hover:text-brand-charcoal dark:group-hover:text-white transition-colors">
                                     {items(problem.key)}
                                 </p>
                             </CardContent>
